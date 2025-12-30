@@ -1,4 +1,5 @@
 Fraud Detection Analysis – Power BI, SQL & Python
+
 1] Project Overview
 
 Fraud detection is a critical challenge in the banking and financial services industry.
@@ -84,7 +85,7 @@ SQL helped validate patterns before visualization.
 
 A 3-page interactive Power BI dashboard was created.
 
-🔹 Page 1: Fraud Overview
+Page 1: Fraud Overview
 
 KPIs:
 
@@ -108,7 +109,7 @@ High-amount vs normal transactions
 
 International vs domestic fraud analysis
 
-🔹 Page 2: Fraud Insights Table
+Page 2: Fraud Insights Table
 
 Detailed transaction-level table
 
@@ -124,7 +125,7 @@ High amount flag
 
 International flag
 
-🔹 Page 3: Deep Fraud Insights
+Page 3: Deep Fraud Insights
 
 Fraud by day of week & transaction type
 
@@ -176,7 +177,7 @@ Project presentation (.pptx)
 
 Full project documentation (.pdf)
 
-🧰 Tools & Technologies Used
+10] Tools & Technologies Used
 
 Power BI Desktop
 
@@ -186,7 +187,7 @@ SQL
 
 Microsoft Excel
 
-10] Conclusion
+11] Conclusion
 
 This project demonstrates how data analytics can be effectively used to detect fraud patterns and support fraud prevention strategies.
 The combination of Python, SQL, and Power BI enables faster fraud identification, improved risk monitoring, and data-driven decision-making for financial institutions.
