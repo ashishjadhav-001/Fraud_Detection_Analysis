@@ -1,192 +1,209 @@
-Fraud Detection Analysis – Power BI, SQL & Python
-1] Project Overview
+#Fraud Detection Analysis – Power BI, SQL & Python
+## 1] Project Overview
 
 Fraud detection is a critical challenge in the banking and financial services industry.
 This project analyzes transaction data to identify fraudulent patterns, high-risk customers, and vulnerable transaction channels using Python, SQL, and Power BI.
 
 An interactive 3-page Power BI dashboard was developed to help decision-makers quickly detect fraud and take preventive actions.
 
-2] Project Objectives
+## 2] Project Objectives
 
-Identify legitimate vs fraudulent transactions
+- Identify legitimate vs fraudulent transactions
 
-Detect high-risk customers using risk scoring
+- Detect high-risk customers using risk scoring
 
-Analyze fraud patterns by location, transaction type, and time
+- Analyze fraud patterns by location, transaction type, and time
 
-Provide actionable insights through interactive dashboards
+- Provide actionable insights through interactive dashboards
 
-Support fraud analysts and business teams in fraud prevention
+- Support fraud analysts and business teams in fraud prevention
 
-3] Dataset Overview
+## 3] Dataset Overview
 
-Total Records: 500
+- Total Records: 500
 
-Total Columns: 13
+- Total Columns: 13
 
-Type: Transactional data
+- Type: Transactional data
 
-Key Fields:
+### Key Fields:
 
-Transaction ID, Customer ID
+- Transaction ID, Customer ID
 
-Transaction Amount & Time
+- Transaction Amount & Time
 
-Transaction Type (ATM, Payment, Transfer, Online)
+- Transaction Type (ATM, Payment, Transfer, Online)
 
-Location & Device Type
+- Location & Device Type
 
-International Flag
+- International Flag
 
-Fraud Indicator
+- Fraud Indicator
 
-4] Data Preparation & Feature Engineering (Python)
+The dataset used in this project is **synthetically generated** to simulate
+fraud detection scenarios. It was created solely for analytical practice
+and dashboard development.
+
+## 4] Data Preparation & Feature Engineering (Python)
 
 Data cleaning and preprocessing were performed using Python (Pandas, NumPy).
 
-Steps Performed:
+### Steps Performed:
 
-Removed duplicate records
+- Removed duplicate records
 
-Handled missing values
+- Handled missing values
 
-Converted data types
+- Converted data types
 
-Created new features:
+- Created new features:
 
-high_amount_flag
+- high_amount_flag
 
-international_flag
+- international_flag
 
-risk_score
+- risk_score
 
-Hour of transaction
+- Hour of transaction
 
-Day of week
+- Day of week
 
 These features helped improve fraud pattern detection.
 
-5] SQL Analysis
+[View Jupiter File](Fraud_detect.ipynb)
 
-SQL queries were used to extract key fraud insights, including:
+## 5] SQL Analysis
 
-Top high-risk customers
+- SQL queries were used to extract key fraud insights, including:
 
-Fraud trends by day of week
+- Top high-risk customers
 
-Fraud distribution by transaction type
+- Fraud trends by day of week
 
-Total fraud loss analysis
+- Fraud distribution by transaction type
 
-SQL helped validate patterns before visualization.
+- Total fraud loss analysis
 
-6] Power BI Dashboard Overview
+- SQL helped validate patterns before visualization.
+
+[View SQL File](Fraud_detection.sql)
+
+## 6] Power BI Dashboard Overview
 
 A 3-page interactive Power BI dashboard was created.
 
-🔹 Page 1: Fraud Overview
+### Page 1: Fraud Overview
 
-KPIs:
+### KPIs:
 
-Total Transactions
+- Total Transactions
 
-Total Fraud Count
+- Total Fraud Count
 
-Total Fraud Amount
+- Total Fraud Amount
 
-Fraud Rate (%)
+- Fraud Rate (%)
 
-Visuals:
+### Visuals:
 
-Monthly transaction trends
+- Monthly transaction trends
 
-Fraud by day of week
+- Fraud by day of week
 
-Fraud by transaction type
+- Fraud by transaction type
 
-High-amount vs normal transactions
+- High-amount vs normal transactions
 
-International vs domestic fraud analysis
+- International vs domestic fraud analysis
 
-🔹 Page 2: Fraud Insights Table
+![Deep Fraud Insight](Screenshots/Deep_Fraud_Insight.png)
 
-Detailed transaction-level table
+### Page 2: Fraud Insights Table
 
-Multiple filters for deep investigation:
+- Detailed transaction-level table
 
-Transaction type
+- Multiple filters for deep investigation:
 
-Location
+- Transaction type
 
-Fraud flag
+- Location
 
-High amount flag
+- Fraud flag
 
-International flag
+- High amount flag
 
-🔹 Page 3: Deep Fraud Insights
+- International flag
 
-Fraud by day of week & transaction type
+![Fraud Detection Overview](Screenshots/Fraud_detection_overview.png)
 
-Risk score gauge
+### Page 3: Deep Fraud Insights
 
-Heatmap of fraud amount by location & transaction type
+- Fraud by day of week & transaction type
 
-Top 5 high-risk customer accounts
+- Risk score gauge
 
-7] Key Insights & Findings
+- Heatmap of fraud amount by location & transaction type
 
-Online and Payment transactions show the highest fraud concentration
+- Top 5 high-risk customer accounts
 
-International transactions contribute significantly higher fraud amounts
+To see Page3 : ![Fraud Insight Table](Screenshots/Fraud_Insight_Table.png)
 
-Metro cities such as Bangalore, Chennai, and Hyderabad show elevated fraud risk
+## 7] Key Insights & Findings
 
-Fraud peaks during weekends and evening hours
+- Online and Payment transactions show the highest fraud concentration
 
-A small group of high-risk customers contributes a major portion of fraud losses
+- International transactions contribute significantly higher fraud amounts
 
-High transaction amounts strongly correlate with fraud probability
+- Metro cities such as Bangalore, Chennai, and Hyderabad show elevated fraud risk
 
-8] Business Recommendations
+- Fraud peaks during weekends and evening hours
 
-Strengthen authentication for Online & Payment channels (2FA, device binding)
+- A small group of high-risk customers contributes a major portion of fraud losses
 
-Monitor high-risk locations with real-time alerts
+- High transaction amounts strongly correlate with fraud probability
 
-Implement weekend-specific fraud detection rules
+## 8] Business Recommendations
 
-Dynamically flag high-amount transactions based on customer history
+- Strengthen authentication for Online & Payment channels (2FA, device binding)
 
-Use risk scoring to prioritize fraud investigations
+- Monitor high-risk locations with real-time alerts
 
-9] Project Deliverables
+- Implement weekend-specific fraud detection rules
 
-Cleaned dataset
+- Dynamically flag high-amount transactions based on customer history
 
-Python preprocessing scripts
+- Use risk scoring to prioritize fraud investigations
 
-SQL analysis queries
+## 9] Project Deliverables
 
-Power BI dashboard (.pbix)
+- Cleaned dataset
 
-Dashboard export (.pdf)
+- Python preprocessing scripts
 
-Project presentation (.pptx)
+- SQL analysis queries
 
-Full project documentation (.pdf)
+- Power BI dashboard (.pbix)
 
-🧰 Tools & Technologies Used
+- Dashboard export (.pdf)
 
-Power BI Desktop
+- Project presentation (.pptx)
 
-Python (Pandas, NumPy, Matplotlib)
+- Full project documentation (.pdf)
 
-SQL
+## 10] Tools & Technologies Used
 
-Microsoft Excel
+- Power BI Desktop
 
-10] Conclusion
+- Python (Pandas, NumPy, Matplotlib)
+
+- SQL
+
+- Microsoft Excel
+
+## 11] Conclusion
 
 This project demonstrates how data analytics can be effectively used to detect fraud patterns and support fraud prevention strategies.
 The combination of Python, SQL, and Power BI enables faster fraud identification, improved risk monitoring, and data-driven decision-making for financial institutions.
+
+                                                                ## Author
+                                                                **Ashish Jadhav**  Aspiring Data Analyst  
