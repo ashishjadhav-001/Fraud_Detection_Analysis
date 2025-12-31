@@ -1,3 +1,4 @@
+
 #Fraud Detection Analysis – Power BI, SQL & Python
 ## 1] Project Overview
 
@@ -91,6 +92,7 @@ These features helped improve fraud pattern detection.
 ## 6] Power BI Dashboard Overview
 
 A 3-page interactive Power BI dashboard was created.
+
 
 ### Page 1: Fraud Overview
 
