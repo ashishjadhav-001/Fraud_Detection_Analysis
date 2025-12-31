@@ -1,5 +1,5 @@
 
-#Fraud Detection Analysis – Power BI, SQL & Python
+# Fraud Detection Analysis – Power BI, SQL & Python
 ## 1] Project Overview
 
 Fraud detection is a critical challenge in the banking and financial services industry.
