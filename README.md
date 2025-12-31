@@ -208,5 +208,5 @@ This project demonstrates how data analytics can be effectively used to detect f
 The combination of Python, SQL, and Power BI enables faster fraud identification, improved risk monitoring, and data-driven decision-making for financial institutions
 
 ## Author
-**Ashish Jadhav** 
+**Ashish Jadhav** <br>
 Aspiring Data Analyst  
