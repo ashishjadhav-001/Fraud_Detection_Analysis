@@ -205,7 +205,8 @@ To see Page3 : ![Fraud Insight Table](Screenshots/Fraud_Insight_Table.png)
 ## 11] Conclusion
 
 This project demonstrates how data analytics can be effectively used to detect fraud patterns and support fraud prevention strategies.
-The combination of Python, SQL, and Power BI enables faster fraud identification, improved risk monitoring, and data-driven decision-making for financial institutions.
+The combination of Python, SQL, and Power BI enables faster fraud identification, improved risk monitoring, and data-driven decision-making for financial institutions
 
-                                                                ## Author
-                                                                **Ashish Jadhav**  Aspiring Data Analyst  
+## Author
+**Ashish Jadhav** 
+Aspiring Data Analyst  
